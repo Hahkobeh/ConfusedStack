@@ -26,7 +26,7 @@ Input file\
 An input file consists of a sequence of push, pop and top commands, each command in its own line.
 
 Output file\
-Each output from the program is written to the output file, followed by moving to a new line (so each element is in its own line).\ If the program encounters a command that is not push, pop or top, it outputs:\
+Each output from the program is written to the output file, followed by moving to a new line (so each element is in its own line). If the program encounters a command that is not push, pop or top, it outputs:\
 Input error.\
 and terminates. If the argument of a push command is not a natural number, it outputs:\
 Imput error.\
