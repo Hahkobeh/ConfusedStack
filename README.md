@@ -4,8 +4,8 @@ Project for Data Structures Class - Implements a stack which reads commands pop,
 
 # Program is run by:
 
-javac ConfusedStack.java
-java ConfusedStack input.txt output.txt
+javac ConfusedStack.java \
+java ConfusedStack input.txt output.txt \
 
 # These where the assignment specifications:
 
