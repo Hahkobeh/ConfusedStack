@@ -7,7 +7,7 @@ Project for Data Structures and Algorithms class - Implements a stack which read
 javac ConfusedStack.java \
 java ConfusedStack input.txt output.txt 
 
-# These where the assignment specifications:
+# Assignment specifications:
 
 The problem: a confused stack\
 The task your system has to perform is to implement a stack of natural numbers. In general, the operations push, pop, and top should behave as normal for a stack, with the following exceptions:
