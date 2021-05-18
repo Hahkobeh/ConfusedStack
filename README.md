@@ -10,7 +10,7 @@ java ConfusedStack input.txt output.txt
 # These where the assignment specifications:
 
 The problem: a confused stack\
-The task your system has to perform is to implement a stack of natural numbers. In general, the operations push, pop, and top should behave as normal for a stack, with the following exceptions:\
+The task your system has to perform is to implement a stack of natural numbers. In general, the operations push, pop, and top should behave as normal for a stack, with the following exceptions:
 
 push(0) should not result in any change of the stack, except if the stack is empty, in which case it adds 0 to the stack\
 push(666) adds not just once 666 to the stack, but it adds it 3 times\
@@ -23,7 +23,7 @@ If the top of the stack is 319, then applying top() outputs 666.\
 push(13) first empties the stack (outputting each element in the sequence a series of pops by a non-confused stack would do) and then enters 13 on the stack.\
 If the top of the stack is 42, pop() removes all elements of the stack, only outputting 42.\
 Input file\
-An input file consists of a sequence of push, pop and top commands, each command in its own line.\
+An input file consists of a sequence of push, pop and top commands, each command in its own line.
 
 Output file\
 Each output from the program is written to the output file, followed by moving to a new line (so each element is in its own line).\ If the program encounters a command that is not push, pop or top, it outputs:\
@@ -34,4 +34,4 @@ and terminates. If the above does not say otherwise, performing top() on an empt
 null\
 and the program continues. Performing pop() on an empty stack should result in the output\
 Error\
-and the program should terminate.\
+and the program should terminate.
